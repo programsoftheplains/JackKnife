@@ -23,12 +23,6 @@ var makeItRain = function() {
     $('.rain.back-row').append(backDrops);
   }
   
-  $('.splat-toggle.toggle').on('click', function() {
-    $('body').toggleClass('splat-toggle');
-    $('.splat-toggle.toggle').toggleClass('active');
-    makeItRain();
-  });
-  
   makeItRain();
 
   //credit to Aaron Rickle (@arickle) on Codepen for the rain effect package
