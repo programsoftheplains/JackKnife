@@ -10,14 +10,27 @@ html {
   height:100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   border:1px solid blue;
 }
 
-#talkbox{
+.headBuffer{
+  border:2px solid plum;
+  height: 5%;
+}
+
+.cottage{
+  border:1px solid green;
+  height: 45%;
+  background-image: url(https://res.cloudinary.com/dhfwprvtz/image/upload/v1678462049/JackKnife/Scary-House-Haunted-Haunted-House-Icon-Spooky-5603118_zbpqqa.png);
+  background-size: contain;background-repeat: no-repeat;
+  background-position: center;
+}
+
+.talkbox{
   color: white;
   border:2px solid red;
-  height: 20%;
+  height: 22%;
 }
 
 
