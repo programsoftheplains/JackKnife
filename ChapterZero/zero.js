@@ -1,3 +1,5 @@
+//Rain handler
+
 var makeItRain = function() {
     //clear out everything
     $('.rain').empty();
@@ -25,4 +27,20 @@ var makeItRain = function() {
   
   makeItRain();
 
-  //credit to Aaron Rickle (@arickle) on Codepen for the rain effect package
+//credit to Aaron Rickle (@arickle) on Codepen for rain effect code
+
+
+
+
+//Chapter Select button? Maybe use cookie caching to make chapters selectable only if you've already reached them on the browser before?
+
+
+
+//Script
+
+//create array of strings, strings contain script segments that will cycle on click
+// ex: script begins with arr[0] as a span in talker div
+// ex cont: clicking talker div triggers function that inserts string in arr[1], cycle repeats until we arrive at a Dialogue Tree (Y/N?)
+
+
+
