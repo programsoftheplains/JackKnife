@@ -42,5 +42,23 @@ var makeItRain = function() {
 // ex: script begins with arr[0] as a span in talker div
 // ex cont: clicking talker div triggers function that inserts string in arr[1], cycle repeats until we arrive at a Dialogue Tree (Y/N?)
 
+document.querySelector('#clicker').addEventListener('click', talkerCycle)
 
+let dialogue = ['Hello','this is a cycle test','test snippet 3', 4 , 5 , 6 , 7 ,  8 , 9 , 10 , 11, 12]
 
+let line = 0
+
+function talkerSetState(){
+  console.log('set state run')
+}
+
+talkerSetState()
+
+function talkerCycle(){
+  if(line<5){
+    console.log(dialogue[line])
+    line += 1
+  }else{
+    console.log('trigger y/n prompt')
+  }
+}

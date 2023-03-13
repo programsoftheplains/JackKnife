@@ -65,11 +65,11 @@ html {
 
 .headBuffer{
   border:2px solid plum;
-  height: 13%;
+  height: 10%;
 }
 
 .cottage{
-  height: 60%;
+  height: 55%;
   background-image: url(https://res.cloudinary.com/dhfwprvtz/image/upload/v1678462049/JackKnife/Scary-House-Haunted-Haunted-House-Icon-Spooky-5603118_zbpqqa.png);
   background-size: contain;background-repeat: no-repeat;
   background-position: center;
@@ -78,7 +78,7 @@ html {
 .talkbox{
   color: white;
   background-color: black;
-  height: 27%;
+  height: 35%;
 }
 
 
@@ -96,7 +96,7 @@ html {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 25%;
     z-index: 2;
   }
   
